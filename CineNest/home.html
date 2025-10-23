@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>CineNest</title>
+</head>
+
+<body>
+
+    <div class="Main_container">
+
+        <header class="header" id="header">
+            <nav class="header-nav">
+                <div class="logo">
+                    <img src="./imeges/logo.png" alt="logo" class="logoImg">
+                    <h2 class="heading">CineNest</h2>
+                </div>
+                <ul class="header-nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">My List</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="heder-nav-account">
+                    <div class="account-notfication">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-bell">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                            <path d="M9 17v1a3 3 0 0 0 6 0v-1" id="notfication" />
+                        </svg>
+                    </div>
+                    <div class="account-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" id="search" />
+                        </svg>
+                    </div>
+
+                    <div class="registation_form">
+                        <button type="button" id="singUp">Sing up</button>
+                        <button type="button" id="singIn">Sing in</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="slide_wrapper">
+
+                <div class="slider">
+                    <div class="poster">
+                        <img src="./imeges/poster-1.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-2.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-3.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-4.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-5.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-6.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-7.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-8.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-9.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                    <div class="poster">
+                        <img src="./imeges/poster-10.png" alt="poster" class="posters">
+                        <div class="posters_buttons">
+                            <button type="button" class="actionButtond" id="watch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                                </svg>
+                                WATCH
+                            </button>
+                            <button type="button" class="actionButtond" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-circle-plus">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4.929 4.929a10 10 0 1 1 14.141 14.141a10 10 0 0 1 -14.14 -14.14zm8.071 4.071a1 1 0 1 0 -2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0 -2h-2v-2z" />
+                                </svg>
+                                ADD LIST
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-big-left">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z" />
+                        </svg>
+                    </button>
+                    <button id="next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor"
+                            class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-big-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-6.999a2 2 0 0 0 -2 2v4l.005 .15a2 2 0 0 0 1.995 1.85l6.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z" />
+                        </svg>
+                    </button>
+                </div>
+
+
+            </section>
+            <section class="search-bar"></section>
+        </main>
+        <footer></footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
