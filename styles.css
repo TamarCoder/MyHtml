@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    height: 2014px;
+}
+
+
+/* header is start  */
+
+#header-content {
+    width: 1400px;
+    height: 674px;
+    margin: 156px auto;
+}
+
+
+#header-content-image {
+    width: 1400px;
+    height: 674px;
+    border-radius: 33.185px;
+
+}
+
+#header-text {
+    width: 1258px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 44.452px;
+    font-weight: 400;
+    margin-top: -640px;
+    padding-left: 71px;
+    color: #FFF;
+}
+
+/* header is end  */
+
+/* main  is start  */
+#subscribe {
+    width: 1137px;
+    height: 350px;
+    border-radius: 24px;
+    background: #EBF8FE;
+    margin: 0 auto;
+}
+
+#subscribe-heading {
+    width: 971px;
+    height: 60px;
+    display: inline-block;
+    color: #181D27;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    letter-spacing: -1.28px;
+    margin: 40px 83px;
+
+}
+
+#subscribe-text {
+    color: #535862;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 32px;
+    padding: 24px 32px;
+    /* 137.5% */
+}
+
+#subscribe-form {
+    width: 488px;
+    height: 74px;
+
+    margin: 0 auto;
+
+}
+
+#email-input {
+    width: 345px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+#email-input::placeholder {
+    padding-left: 20px;
+    color: #717680;
+}
+
+#subscribe-btn {
+    width: 119px;
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: #007CB8;
+    color: #fff;
+}
+
+#subscribe-form p {
+    color: #535862;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+#subscribe-form p a {
+    color: #535862;
+}
+
+/* main is end  */
+
+/* footer is start  */
+
+footer {
+    width: 100%;
+    height: 809px;
+    
+}
+
+footer #footer-content {
+    display: inline-block;
+    width: 546px;
+    height: 638px;
+    border-radius: 24px;
+    background: #EBF8FE;
+    margin-top: 72px;
+    margin-left: 570px;
+
+}
+
+#footer-heading {
+    display: inline-block;
+    width: 216px;
+    height: 60px;
+    
+    margin-top: 40px;
+    margin-left: 32px;
+
+    color: #181D27;
+    font-size: 40px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+
+#email-forms {
+    width: 482px;
+    height: 172px;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+#email-forms label {
+    font-family: "Inria Sans", sans-serif;
+    color: #1B003D;
+    font-size: 20px;
+}
+
+#email-forms input {
+    width: 482px;
+    height: 48px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+
+}
+
+#radio-forms {
+    width: 338px;
+    height: 111px;
+   
+    margin-top: 24px;
+    margin-left: 32px;
+     
+}
+
+#radio-forms p {
+    color: #1B003D;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+}
+
+#radio-forms label {
+    
+    color: #6D5F8B;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 14px;
+    width: 338px;
+    height: 22px;  
+}
+#radio-forms   input{
+    margin-top: 10px;
+}
+
+/* footer is end  */
