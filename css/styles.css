@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #8E26C0;
+    font-family: "JetBrains Mono";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#firstBlock {
+    display: flex;
+    width: 565px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    background: #FFE8E8;
+    margin: 20px 20px;
+    color: #F00;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#secondBlock {
+    display: flex;
+    width: 1023px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    border-right: 6px solid #05F;
+    border-top: 6px solid #00C76E;
+    border-bottom: 6px solid #7F56D9;
+    border-left: 6px solid #C11574;
+    margin: 20px 20px;
+    color: #85647B;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#thirBlock {
+    display: flex;
+    width: 1050px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    background: #FFE8E8;
+    margin: 20px 20px;
+    color: #414651;
+    text-align: center;
+    font-family: lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#thirBlock span {
+    color: #FF4405;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+
+}
+
+#fortyBlock {
+    display: flex;
+    width: 1069px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #3538CD;
+    margin: 20px 20px;
+    color: #0064CE;
+    text-align: right;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#images {
+    width: 556px;
+    height: 347px;
+    flex-shrink: 0;
+    margin: 40px 20px;
+}
