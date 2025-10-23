@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* არტიკლის პირველი სექციის დასაწყისი */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#heading {
+    color: #000;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+
+#sectionOne {
+    display: flex;
+    width: 568px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 20px 20px;
+}
+
+#first-heading {
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#firstText {
+    flex: 1 0 0;
+    color: #414651;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#orderedList {
+    align-self: stretch;
+    color: #155EEF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 32px;
+
+}
+
+button {
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #CEA201;
+    color: #CEA201;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 32px;
+}
+
+
+#sectionTwo {
+    width: 722px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    margin-left: 32px;
+
+}
+
+#second-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    color: #000;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#secondText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    flex: 1 0 0;
+    color: #414651;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+}
+
+#secondText-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    flex: 1 0 0;
+    color: #00C76E;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+}
+
+#orderedList-two {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #FF5DA3;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+}
+
+#photo-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+}
+
+#container {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border: 6px solid #C11574;
+    background: #FFDEF0;
+}
+
+#second-heading-two {
+    flex: 1 0 0;
+    color: #414651;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    /* 100% */
+}
+
+#unorderedList {
+    color: #C27512;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#unorderedList li {
+    display: flex;
+    align-items: center;
+
+}
+
+#unorderedList li p {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 90px;
+    margin: 0 5px;
+}
+
+#link {
+    color: #00D4BC;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
