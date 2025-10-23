@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #07081A;
+    font-family: "Inter", serif;
+}
+
+/* header is start */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #261C51;
+
+}
+
+.header-content {
+    width: 1040px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.header-heding {
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item .item {
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.link-item .active {
+    color: #B968DE;
+}
+
+.header-account {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #9100D3;
+}
+
+
+/* header is end */
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.main-title-section {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-title-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+
+}
+
+.main-section-span {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.main-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #9100D3;
+    color: #fff;
+    font-size: 16px;
+}
+
+.company-section {
+    width: 1040px;
+    display: flex;
+    height: 72px;
+    padding: 0px 72px 24px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.company-logo {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.company-logo h3 {
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.info-section {
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    gap: 64px;
+}
+
+.info-box {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.info-box h2 {
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.info-box p {
+    color: #C0C0C0;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+/* footer */
+footer {
+   width: 100%;
+    display: flex;
+    height: 64px;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 463px;
+    border-top: 1px solid #261C51;
+}
+
+.copy span {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
