@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-container {
+    max-width: 1920px;
+    width: 100%;
+    height: 2676px;
+
+    background: #FFF;
+
+    display: inline-block;
+}
+
+.main-section {
+    width: 1604px;
+    height: 2344px;
+    margin-top: 64px;
+    margin-left: 50px;
+    background: #E4EBFF;
+    display: inline-block;
+
+}
+
+.feature-section {
+    width: 1280px;
+    height: 2152px;
+    background: #FFF;
+    margin-top: 96px;
+    margin-left: 162px;
+}
+
+.header {
+    width: 1280px;
+    height: 136px;
+
+}
+
+.header-content {
+    width: 1216px;
+    height: 136px;
+
+    margin-left: 32px;
+}
+
+.header-text {
+    width: 929px;
+    height: 24px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    margin: 0 143px;
+    color: #6941C6;
+    font-size: 16px;
+    font-family: "Inter", serif;
+
+}
+
+.header-title {
+    width: 929px;
+    height: 44px;
+    display: inline-block;
+    margin: 0 143px;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #181D27;
+    margin-top: 12px;
+
+}
+
+.header-span {
+    width: 1216px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 32px;
+    text-align: center;
+    color: #535862;
+    font-family: "Inter", serif;
+    font-size: 18px;
+
+}
+
+
+.article {
+    width: 1280px;
+    height: 512px;
+    
+    margin-top: 96px;
+    vertical-align: middle;
+}
+
+.article-content {
+    width: 560px;
+    height: 334px;
+   
+    display: inline-block;
+    margin-top: 86px;
+    margin-left: 32px;
+}
+
+.article-image {
+    width: 752.941px;
+    height: 501.961px;
+    background-image: url(./images/Screen\ mockup\ light\ modAime\ \(REPLACE\).png);
+    background-repeat: no-repeat;
+    margin-top: -420px;
+    margin-left: 690px;
+    display: inline-block;
+
+}
+
+.icon-text {
+    width: 560px;
+    height: 168px;
+    
+}
+
+.icon-div {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: #F4EBFF;
+     
+}
+.icon-div  img{
+    padding-top: 13px;
+    padding-left: 12px;
+}
+.article-title{
+    width: 560px;
+    height: 38px ;
+    margin-top: 20px;
+    color: #181D27;
+    font-family: "Inter", serif;
+    font-size: 30px;
+
+}
+.article-text{
+    width: 560px;
+    height: 56px;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: #535862;
+    margin-top: 16px;
+}
+.article-lists{
+    width: 560px;
+    height: 124px;
+    list-style: none;
+    margin-top: 32px;
+
+}
+.list-items{
+    width: 544px;
+    height: 28px ;
+     
+    margin-top: 16px;
+}
+.list-items p{
+    width: 504px;
+    height: 28px;
+    font-size: 18px;
+    margin-top: -30px;
+    margin-left: 40px;
+    font-family: "Inter", serif;
+
+
+}
+
+.article-image-two{
+    width: 752.941px;
+    height: 501.961px;
+    background-image: url(./images/Screen\ mockup\ light\ modAime\ \(REPLACE\).png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.article-content-two{
+    margin-top: -400px;
+    margin-left: 700px;
+}
