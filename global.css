@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #040405;
+    font-family: "Inter", serif;
+}
+
+/* ყველაზე მთავარი დივი */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 225px;
+}
+
+/* ყველაზე მთავარი დივი */
+/* ჰედერის და მეინის ვრაპერი */
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+/* ჰედერის და მეინის ვრაპერი */
+
+/* ჰედერი */
+
+header {
+    display: flex;
+    padding: 16px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+.header-content {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    width: 116px;
+    height: 24.5px;
+}
+
+.navigation {
+    width: 250px;
+    height: 24px;
+}
+
+.list-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.item {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #00FF1A;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ჰედერი */
+/* მეინი */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+
+/* პირველი სექცია */
+.WelcomeConvex {
+    max-width: 1040px;
+    width: 100%;
+    height: 358px;
+    display: inline-flex;
+    gap: 151px;
+}
+
+.welcome-title {
+    display: flex;
+    width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.vector {
+    width: 255px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.vector-title {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.welcome-heading {
+    color: #FFF;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.welcome-span {
+    width: 546px;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.welcome-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.welcome-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fill {
+    width: 132px;
+    height: 48px;
+    border-radius: 24px;
+    background: #00FF1A;
+    color: #000;
+    border: none;
+}
+
+.unfill {
+    width: 150px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+.welcome-img {
+    width: 325px;
+    height: 330px;
+
+}
+
+/* პირველი სექცია */
+/* მეორე სექცია */
+
+.banner-section {
+    max-width: 1040px;
+    width: 100%;
+    height: 100px;
+}
+
+.baner-content {
+    width: 815px;
+    height: 100px;
+    border-top: 1px solid #00FF1A;
+    display: inline-flex;
+    padding-top: 24px;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.box1 {
+    width: 158px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.box2 {
+    width: 161px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.box3 {
+    width: 195px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.box4 {
+    width: 181px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.baner-title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.banner-span {
+    width: 195px;
+    display: inline-block;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* მეორე სექცია */
+/* მესამე სექცია */
+.LiquidityProvider {
+    max-width: 1040px;
+    width: 100%;
+    height: 484px;
+
+    display: flex;
+    gap: 22px;
+}
+
+.ProvideImage {
+    width: 451px;
+    height: 475px;
+    flex-shrink: 0;
+
+}
+
+.ProvideTitle {
+    width: 567px;
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.ProvideTitle-heading {
+    width: 567px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ProvideTitle-heading h2 {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.ProvideTitle-heading span {
+    display: inline-block;
+    width: 546px;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.ProvideTitle-bottom {
+    width: 549px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ProvideTitle-bottom-box {
+    width: 549px;
+    height: 79px;
+    display: flex;
+    gap: 16px;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.ProvideTitle-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.ProvideTitle-info h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.ProvideTitle-info span {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+/* მესამე სექცია */
+
+/* მეოთხე სექცია */
+.OurProcess {
+    max-width: 1040px;
+    width: 100%;
+    height: 357px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.process-title {
+    width: 225px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.process-heading {
+    width: 565px;
+    height: 87px;
+
+}
+
+.process-heading h2 {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.process-banner {
+    max-width: 1040px;
+    width: 100%;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    align-self: stretch;
+}
+
+.banner-top {
+    width: 863px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 213px;
+}
+
+.banner-icon {
+    display: flex;
+    width: 56px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #00FF1A;
+    background: rgba(0, 255, 26, 0.10);
+}
+
+.banner-icon img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 4px 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-bottom {
+    width: 1040px;
+    height: 89px;
+    display: flex;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.bottom-box {
+    width: 245px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.bottom-box p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.bottom-box span {
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* მეოთხე სექცია */
+/* მეხუთე  სექცია */
+
+.CrvStakers {
+    max-width: 1040px;
+    width: 100%;
+    height: 643px;
+    display: flex;
+    gap: 22px;
+}
+
+.crvStakers-title {
+    width: 509px;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.crvStakers-heading {
+    width: 509px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.crvStakers-heading h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.crvStakers-heading span {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.crvStakers-container {
+    width: 409px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.crvStakers-box-active {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid #00FF1A;
+}
+
+.crvStakers-box-active h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.crvStakers-box-active span {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.crvStakers-box-grey {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid #4A4A4E;
+}
+
+.crvStakers-box-grey h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.crvStakers-box-grey span {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.crvStakers-image {
+    width: 509px;
+    height: 481px;
+}
+
+/* მეხუთე  სექცია */
+
+
+/* მეექვსე  სექცია */
+
+.Testimonials {
+    max-width: 1040px;
+    width: 100%;
+    height: 729px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.testimonial-container {
+    width: 624px;
+    height: 729px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.test-top {
+    width: 624px;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.test-content {
+    width: 624px;
+    height: 416px;
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #1C1C20;
+}
+
+.content-top {
+    width: 560px;
+    height: 328px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+.author-information {
+    width: 440px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.author-name {
+    width: 440px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.line {
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+
+}
+
+.author-name .name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.author-name .name h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.author-name .name p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.author-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.author-heading h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.author-heading p {
+    color: #B7B7B7;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.green-span {
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.dot-2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.content-bottom {
+    width: 98px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.left {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #F8F8F8;
+}
+
+.right {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.test-botom {
+    width: 624px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.test-content-bottom {
+    width: 624px;
+    height: 217px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+
+    background: #1C1C20;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.bottom-content h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bottom-content span {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tel-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.tele {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.testimonial-right {
+    width: 392px;
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #1C1C20;
+
+}
+
+.form-container {
+    display: flex;
+    width: 328px;
+    height: 539px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.form-heading {
+    width: 328px;
+    height: 24px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.form {
+    width: 328px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.form .input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background: none;
+}
+
+.textarea {
+    display: flex;
+    width: 328px;
+    height: 155px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background: none;
+}
+
+.form-btn {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #00FF1A;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* მეექვსე  სექცია */
+
+/* მეინი */
+
+
+
+footer {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #00FF1A;
+}
+
+.footer-content {
+    display: flex;
+    width: 1440px;
+    display: flex;
+    padding: 40px 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.links a {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.links .first {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.social {
+    width: 104px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.social p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
